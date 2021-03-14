@@ -3,7 +3,7 @@ import { Asset, AccountBalanceProps, AccountBalanceData } from '@burner-wallet/t
 import { useBurner } from '../BurnerProvider';
 
 const POLL_INTERVAL = 1000;
-const CACHE_EXPIRATION = 3000;
+const CACHE_EXPIRATION = 30000;
 
 interface BalanceCache {
   balance: string;
